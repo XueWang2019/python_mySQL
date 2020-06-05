@@ -1,7 +1,2 @@
 ## how to input python nan in python to mysqlDB
-python 中的空值为nan, mysql 中的空值为null，如果用MySQL connector输入会导致错误。
-有一类情形是:
-query=""" insert into table (a,b,c) value(%s,%s,%s)"""
-因为"""使query变成了docstring
-这种情形解决办法如下:
-query=" insert into table (a,b,c) value(%s,%s,%s)"
+
