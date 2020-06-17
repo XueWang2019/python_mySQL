@@ -7,7 +7,8 @@ To access Wikipedia page data via the MediaWiki API with wptools (phew, that was
 * 2. Downloading Image Files
 Downloading images may seem tricky from a reading and writing perspective, in comparison to text files which you can read line by line, for example. But in reality, image files aren't special—they're just binary files. To interact with them, you don't need special software (like Photoshop or something) that "understands" images. You can use regular file opening, reading, and writing techniques, like this:  
 
-`
+`  
+
 import requests  
 
 r = requests.get(url)  
