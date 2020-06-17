@@ -17,3 +17,4 @@ with open(folder_name + '/' + filename, 'wb') as f:
 
         f.write(r.content)  
 '''
+But this technique can be error-prone. It will work most of the time, but sometimes the file you write to will be damaged. 
