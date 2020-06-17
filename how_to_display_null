@@ -1,0 +1,1 @@
+df[df['COL1'].isnull()]: show the records which is null at column COL1
