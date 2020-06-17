@@ -1,4 +1,11 @@
 # if it is dictionary, it can't be selected on specific values
+case 1:
 for key, value in targetdict.items():
     # do something with value
     targetdict[key] = newvalue
+    
+case 2:
+df_new=[]
+for phase in targetdict:
+    # do something with value, get newitem
+    df_new.append(newitem)
