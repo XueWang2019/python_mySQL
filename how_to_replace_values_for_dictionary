@@ -1,0 +1,4 @@
+# if it is dictionary, it can't be selected on specific values
+for key, value in targetdict.items():
+    # do something with value
+    targetdict[key] = newvalue
