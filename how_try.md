@@ -13,7 +13,8 @@ The output:
 An exception occurred
 2
 '''
-### Without try: Without the try block, the program will crash and raise an error:     
+### Without try: Without the try block, the program will crash and raise an error:   
+'''
 print(y)  
 x=2  
 print(x)  
