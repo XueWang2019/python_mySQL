@@ -31,11 +31,11 @@ NameError: name 'y' is not defined
 '''
 ### use raise:Without the try block, the program will crash and raise an error:  
 '''
-x = -1
-if x < 0:
-  raise Exception("Sorry, no numbers below zero")
-x=2
-print(x)
+x = -1  
+if x < 0:  
+  raise Exception("Sorry, no numbers below zero")  
+x=2  
+print(x)  
 '''
 The output:
 '''
@@ -49,4 +49,5 @@ Exception                                 Traceback (most recent call last)
       5 x=2
       6 print(x)
 
-Exception: Sorry, no numbers below zero
+Exception: Sorry, no numbers below zero  
+'''
