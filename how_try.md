@@ -18,7 +18,7 @@ print(y)
 x=2  
 print(x)  
 
-The output:
+The output:  
 '''
 ---------------------------------------------------------------------------
 NameError                                 Traceback (most recent call last)  
