@@ -37,8 +37,9 @@ if x < 0:
   raise Exception("Sorry, no numbers below zero")  
 x=2  
 print(x)  
-'''
-The output:
+'''  
+The output:  
+
 '''
 
 ---------------------------------------------------------------------------
