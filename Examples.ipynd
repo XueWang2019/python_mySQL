@@ -1,3 +1,0 @@
-** choose a specific value in one columns to create another DataFrame:
-df:DataFrame  
-df_1=df[df.col1=="Yes"] # df_1 is DataFrame too
