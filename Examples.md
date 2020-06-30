@@ -9,4 +9,10 @@ df_1=df[df.col1=="Yes"] # df_1 is DataFrame too
 #### Case3: follow the case1:
 Here df_1 might inherite the index from df, but as only choose part of original data, you might want to delete the original index and create new:  
 use drop and reset_index  
-df_1.reset_index(drop=True)
+df_1.reset_index(drop=True)  
+
+#### case4: show a specific value in a certain column
+df[df['col1']=='Yes'] (DF) or df[df['col].isna()] (DF) or df[df['col].isna()].shape
+
+### case 5: how to merge different rows into one
+df_postcodes = df_html.groupby(['Postal Code','Borough']).Neighborhood.agg([('Neighborhood', ', '.join)])
