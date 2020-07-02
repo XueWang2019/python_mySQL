@@ -17,3 +17,13 @@ if int(1.0)==1.0:
     print('1.0 is int')
 1.0 is int
 
+#### Solution:
+You can use isinstance with a tuple argument containing the types of interest.
+
+To capture all python and numpy integer types use:
+
+isinstance(value, (int, np.integer))
+
+example:
+vals = [3, np.int32(2), np.int64(1), np.float64(0)]
+[(e, type(e), isinstance(e, (int, np.integer))) for e in vals]
