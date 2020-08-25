@@ -1,0 +1,6 @@
+# Here you have a couple of options. 
+# If you know from context which variables you want to slice out, you can just return a view of only those columns by passing a list:
+df1 = df[['a', 'b']]
+# Alternatively, if it matters to index them numerically and not by their name 
+#(say your code should automatically do this without knowing the names of the first two columns) then you can do this instead:
+df1 = df.iloc[:, 0:2] # Remember that Python does not slice inclusive of the ending index.
